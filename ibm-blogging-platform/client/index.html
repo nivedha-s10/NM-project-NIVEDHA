@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBM-NJ-Blogging Platform MVP</title>
+    </head>
+<body>
+    <h1>Create Post</h1>
+    <form id="post-form">
+        <input type="text" id="post-title" placeholder="Post Title" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+        <textarea id="post-content" placeholder="Write your content here..." rows="10" required style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea>
+        <button type="submit" style="padding: 10px 20px; background-color: #007bff; color: white; border: none; cursor: pointer;">Publish Post</button>
+    </form>
+
+    <hr>
+
+    <h2>Published Posts</h2>
+    <div id="post-list">
+        Fetching posts...
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>

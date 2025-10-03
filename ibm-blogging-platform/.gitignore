@@ -1,0 +1,12 @@
+# Dependency folders. These should NOT be uploaded.
+/node_modules
+/server/node_modules
+
+# Environment variables (CRUCIAL for security!)
+/server/.env
+
+# Visual Studio Code internal settings
+.vscode/
+
+# Operating system specific files
+.DS_Store
